@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "role": "Web Development Intern",
+        "company": "IDS",
+        "period": "June 2025 - July 2025",
+        "description":  "Built a Meeting Room Booking & Minutes Management System using Laravel (API), React.js, and MySQL.\n\nFeatures:\n- Room scheduling with conflict prevention, calendar views, and interactive floor maps\n- Sanctum-authenticated user roles (Admin/Employee/Guest) with dedicated admin panel\n- MoM (Minutes of Meeting) module with action item tracking and PDF summaries\n\nAlso optimized database queries and API integrations for improved performance.",
+        "skills": [
+            "Laravel",
+            "React",
+            "MySQL"
+        ],
+        "companyUrl": "https://www.ids.com.lb/"
+    },
+    {
+        "id": 2,
+        "role": "Web Development Intern",
+        "company": "Vanrise",
+        "period": "April 2025 - June 2025",
+        "description":  "Developed RESTful APIs for a reservation system using .NET and SQL Server, ensuring reliable and secure data management.\n\nDesigned and implemented responsive front-end pages with AngularJS, seamlessly integrating them with the .NET backend for dynamic data interaction.\n\nOptimized database operations by creating and utilizing stored procedures to improve performance and maintainability.",
+        "skills": [
+            ".NET",
+            "Angular.js",
+            "SQL Server DB"
+        ],
+        "companyUrl": "https://vanrise.com/"
+    }
+]
