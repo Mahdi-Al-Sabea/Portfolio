@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Dashboard",
+        "description": "A comprehensive dashboard for managing online stores, featuring real-time analytics, inventory management, and order processing. Built with React, Redux, and Tailwind CSS.",
+        "images": [
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1920&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1920&auto=format&fit=crop"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=Example",
+        "tags": [
+            "React",
+            "Redux",
+            "Tailwind",
+            "Chart.js"
+        ],
+        "githubUrl": "https://github.com/example/repo",
+        "liveUrl": "https://example.com"
+    },
+    {
+        "id": 2,
+        "title": "Social Media App",
+        "description": "A mobile-first social networking application allowing users to share posts, stories, and chat in real-time.",
+        "images": [
+            "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1920&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1920&auto=format&fit=crop"
+        ],
+        "tags": [
+            "React Native",
+            "Firebase",
+            "TypeScript"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    }
+]
