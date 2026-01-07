@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, onImageClick }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [scrollSnaps, setScrollSnaps] = useState([]);
@@ -32,7 +32,10 @@ const Carousel = ({ images }) => {
                 <div className="container flex">
                     {images.map((src, index) => (
                         <div className="slide flex-[0_0_100%] min-w-0" key={index}>
-                            <div className="aspect-video w-full relative">
+                            <div
+                                className="aspect-video w-full relative cursor-pointer"
+                                onClick={() => onImageClick && onImageClick(index)}
+                            >
                                 <img
                                     src={src}
                                     alt={`Slide ${index + 1}`}

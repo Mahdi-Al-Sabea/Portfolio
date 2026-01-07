@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import TechCarousel from '../components/TechCarousel';
 
 const Home = () => {
     return (
@@ -60,6 +61,17 @@ const Home = () => {
                 >
                     Contact Me
                 </Link>
+            </motion.div>
+
+            {/* Tech Stack Carousel */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5 }}
+                className="w-full pt-16 pb-8"
+            >
+                <h2 className="text-text-secondary text-sm font-semibold tracking-wider uppercase mb-8">Technologies I Work With</h2>
+                <TechCarousel />
             </motion.div>
 
             {/* Social Links */}

@@ -19,7 +19,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <NavLink to="/" className="text-2xl font-bold text-primary tracking-tighter hover:opacity-80 transition-opacity">
-                            Portfolio.
+                            Mahdi Al Sabeh
                         </NavLink>
                     </div>
 

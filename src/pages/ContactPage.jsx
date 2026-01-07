@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, FileText, Download } from 'lucide-react';
+import { Mail, Linkedin, Github, FileText, Download, Phone } from 'lucide-react';
 
 const ContactPage = () => {
     // Function to handle resume download
@@ -35,6 +35,13 @@ const ContactPage = () => {
             value: '',
             href: 'https://github.com/Mahdi-Al-Sabea',
             color: 'text-gray-200'
+        },
+        {
+            icon: <Phone size={24} />,
+            label: 'Phone',
+            value: '+961 81 677 521', // Replace with actual number
+            href: 'tel:+96181677521',
+            color: 'text-green-500'
         }
     ];
 

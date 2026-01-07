@@ -23,8 +23,7 @@
             "React.js",
             "Node.js",
             "PostgreSQL"
-        ],
-        "githubUrl": "https://github.com/example/repo"
+        ]
     },
     {
         "id": 2,
@@ -41,7 +40,7 @@
             "PHP",
             "MySQL"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "githubUrl": "https://github.com/Mahdi-Al-Sabea/Beep-Beep-Delivery-Application"
     },
     {
         "id": 3,
@@ -63,7 +62,8 @@
             "React.js",
             "MySQL"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "Backend": "https://github.com/Mahdi-Al-Sabea/IDS_Server",
+        "Frontend": "https://github.com/Mahdi-Al-Sabea/IDS_Client"
     },
     {
         "id": 4,
@@ -80,7 +80,8 @@
             "C#",
             "MySQL"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "Backend": "https://github.com/Mahdi-Al-Sabea/Task-Management",
+        "Frontend": "https://github.com/Mahdi-Al-Sabea/Task-Management-Client"
     },
     {
         "id": 5,
@@ -99,7 +100,9 @@
             "JavaScript",
             "MongoDB"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "Backend": "https://github.com/Mahdi-Al-Sabea/Rental-Listing-Node.js-Server",
+        "Frontend": "https://github.com/Mahdi-Al-Sabea/Rental-Listing-react.js-Client",
+        "Mobile": "https://github.com/Mahdi-Al-Sabea/Rental-Listing-react-native-Client"
     },
     {
         "id": 6,
@@ -114,7 +117,7 @@
             "PHP",
             "MySQL"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "githubUrl": "https://github.com/Mahdi-Al-Sabea/Ecommerce"
     },
     {
         "id": 7,
@@ -128,6 +131,6 @@
             "JavaFX",
             "MySQL"
         ],
-        "githubUrl": "https://github.com/example/social"
+        "githubUrl": "https://github.com/Mahdi-Al-Sabea/Supermarket-Management-System"
     }
 ]
