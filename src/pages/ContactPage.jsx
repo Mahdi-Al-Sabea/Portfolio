@@ -6,7 +6,7 @@ const ContactPage = () => {
     // Function to handle resume download
     const handleDownloadResume = () => {
         // Assuming resume.pdf is in the public folder
-        const resumeUrl = '/resume.pdf';
+        const resumeUrl = '/Mahdi-Al-Sabeh CV.pdf';
         const link = document.createElement('a');
         link.href = resumeUrl;
         link.download = 'Mahdi_Resume.pdf';
@@ -19,22 +19,21 @@ const ContactPage = () => {
         {
             icon: <Mail size={24} />,
             label: 'Email',
-            value: 'mahdi@example.com',
-            href: 'mailto:mahdi@example.com',
+            value: 'mahdi.alsabea@gmail.com',
+            href: 'mailto:mahdi.alsabea@gmail.com',
             color: 'text-blue-400'
         },
         {
             icon: <Linkedin size={24} />,
             label: 'LinkedIn',
-            value: 'linkedin.com/in/mahdi',
-            href: 'https://linkedin.com',
+            href: 'https://linkedin.com/in/mahdi-al-sabea-6407a5267',
             color: 'text-blue-600'
         },
         {
             icon: <Github size={24} />,
             label: 'GitHub',
-            value: 'github.com/mahdi',
-            href: 'https://github.com',
+            value: '',
+            href: 'https://github.com/Mahdi-Al-Sabea',
             color: 'text-gray-200'
         }
     ];

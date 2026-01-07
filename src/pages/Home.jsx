@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary shadow-2xl shadow-primary/20">
                     {/* Replace with actual image via 'generate_image' or user asset */}
                     <img
-                        src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=300&auto=format&fit=crop"
+                        src="/Fyp Image.jpg"
                         alt="Profile"
                         className="w-full h-full object-cover"
                     />
@@ -69,13 +69,13 @@ const Home = () => {
                 transition={{ delay: 0.6 }}
                 className="flex items-center gap-6 pt-8 text-text-secondary"
             >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
+                <a href="https://github.com/Mahdi-Al-Sabea" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
                     <Github size={24} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
+                <a href="https://linkedin.com/in/mahdi-al-sabea-6407a5267" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
                     <Linkedin size={24} />
                 </a>
-                <a href="mailto:email@example.com" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
+                <a href="mailto:mahdi.alsabea@gmail.com" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
                     <Mail size={24} />
                 </a>
             </motion.div>

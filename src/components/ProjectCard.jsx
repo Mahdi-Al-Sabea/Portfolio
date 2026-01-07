@@ -73,7 +73,7 @@ const ProjectCard = ({ project }) => {
                 <div className="space-y-4">
                     <div>
                         <h3 className="text-2xl font-bold text-text mb-2">{project.title}</h3>
-                        <p className="text-text-secondary leading-relaxed">{project.description}</p>
+                        <p className="text-text-secondary leading-relaxed whitespace-pre-line">{project.description}</p>
                     </div>
 
                     <div className="flex flex-wrap gap-2">

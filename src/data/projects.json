@@ -1,34 +1,132 @@
 [
     {
         "id": 1,
-        "title": "E-Commerce Dashboard",
-        "description": "A comprehensive dashboard for managing online stores, featuring real-time analytics, inventory management, and order processing. Built with React, Redux, and Tailwind CSS.",
+        "title": "Docugov+",
+        "description": "A mobile application for online governmental document applications, integrating Mukhtars (local officials) for authentication and approval.\n\nBackend: Express.js RESTful API with PostgreSQL for managing users, applications & Mukhtars.\n\nAuthentication: Secure, role-based (Citizen, Mukhtar & Admin) with JWT, bcrypt, and email verification.\n\nFrontend: Expo React Native mobile app with dark mode & bilingual support. Fetch API for dynamic rendering. React.js admin page showing application insights along with mukhtars information.\n\nKey Features:\no Mukhtar-based application process for documents (e.g., Civil Status Extract, Birth Certificate).\no AI-based image verification via Google Gemini; storage in Azure Blob.\no Google Maps for Mukhtar selection.\no Live push notifications & appointment scheduling.\no QR code scanning integration.\no Document image generation using canvas.",
         "images": [
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1920&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1920&auto=format&fit=crop"
+            "/Docugov+/Docugov+.jpg",
+            "/Docugov+/d (1).png",
+            "/Docugov+/d (2).png",
+            "/Docugov+/d (3).png",
+            "/Docugov+/d (4).png",
+            "/Docugov+/d (5).png",
+            "/Docugov+/d (6).png",
+            "/Docugov+/d1 (1).png",
+            "/Docugov+/d1 (2).png",
+            "/Docugov+/d1 (3).png",
+            "/Docugov+/d1 (4).png",
+            "/Docugov+/d1 (5).png"
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=Example",
+        "videoUrl": "https://www.youtube.com/embed/btCEeiWUVjw",
         "tags": [
-            "React",
-            "Redux",
-            "Tailwind",
-            "Chart.js"
+            "React Native",
+            "React.js",
+            "Node.js",
+            "PostgreSQL"
         ],
-        "githubUrl": "https://github.com/example/repo",
-        "liveUrl": "https://example.com"
+        "githubUrl": "https://github.com/example/repo"
     },
     {
         "id": 2,
-        "title": "Social Media App",
-        "description": "A mobile-first social networking application allowing users to share posts, stories, and chat in real-time.",
+        "title": "Beep Beep",
+        "description": "Developed a full-stack web app for managing deliveries, drivers, and order workflows (team of 4)\n\nBackend: Built with Laravel using RESTful APIs to manage users, orders, statuses, and driver logic with MySQL database to manage tasks, messages, users, and delivery history efficiently.\n\nAuthentication: Integrated secure JWT-based authentication and google OAuth with role-based access control to restrict routes based on user roles and permissions.\n\nFrontend: Designed a responsive interface with HTML, CSS, and JavaScript for real-time order tracking and admin views.\n\nKey Features: OTP-based sign-in, live chat, driver auto-assignment based on availability and workload, and multi-role access (admin, driver, customer).\n\nOther Highlights: Integrated basic real-time tracking, and enabled payments via cash, Stripe, and cryptocurrency options.",
         "images": [
-            "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1920&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1920&auto=format&fit=crop"
+            "/Beep/Beep 2.png"
+ 
+        ],
+        "videoUrl": "https://www.youtube.com/embed/w3v_f6LfRuA",
+        "tags": [
+            "Laravel",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    },
+    {
+        "id": 3,
+        "title": "Meeting Room Booking & Minutes Management System",
+        "description": "A comprehensive system for managing meeting rooms, bookings, and meeting minutes with role-based access.\n\nBackend: Laravel RESTful API with MySQL Database for managing users, meetings, minutes, rooms, tasks and bookings.\n\nAuthentication: Secure, role-based (Admin, Employee & Guest) using Laravel Sanctum.\n\nFrontend: React.js for the frontend.\n\nKey Features:\no Room scheduling with conflict prevention, calendar views and a map showcasing rooms that can be reserved on every floor.\no AI-based image verification via Google Gemini with storage in Azure Blob.\no Sanctum-authenticated user roles (Admin/Employee/Guest) with dedicated admin panel.\no MoM (Minutes of Meeting) module with action item tracking and PDF summaries.",
+        "images": [
+            "/Room Management/r4.png",
+            "/Room Management/r4 (1).png",
+            "/Room Management/r4 (2).png",
+            "/Room Management/r4 (3).png",
+            "/Room Management/r4 (4).png",
+            "/Room Management/r4 (5).png",
+            "/Room Management/r4 (6).png",
+            "/Room Management/r4 (7).png",
+            "/Room Management/r4 (8).png"
         ],
         "tags": [
-            "React Native",
-            "Firebase",
-            "TypeScript"
+            "Laravel",
+            "React.js",
+            "MySQL"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    },
+    {
+        "id": 4,
+        "title": "Task Management Full Stack Website",
+        "description":"Developed a full-stack web application for managing projects and tasks, enabling admins and employees to collaborate efficiently with real-time tracking and updates.\n\nBackend: Developed a RESTful API using the .NET framework and MySQL to manage users (employees/admins), projects, and tasks, ensuring robust data handling and business logic implementation.\n\nAuthentication: Integrated secure JWT-based authentication with role-based access control to restrict routes based on user roles and permissions.\n\nFrontend: Built a React.js interface using Axios for API communication, enabling both employees and admins to manage and track tasks in real time.\n\nKey Features: Task search and filtering, full CRUD operations for projects and tasks (admin only), user profile management, task status updates, and task visualization via kanban-style boards and calendar views.",
+        "images": [
+            "Task Management System/Task Management.png"
+
+        ],
+        "tags": [
+            ".NET",
+            "React.js",
+            "Bootstrap",
+            "C#",
+            "MySQL"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    },
+    {
+        "id": 5,
+        "title": "Rental listing (web and mobile)",
+        "description": "Built a full-stack platform for rental property listings with a focus on scalability and security:\n\nBackend: Leveraged MongoDB for managing user accounts, rental listings, and media storage.\n\nAuthentication: Implemented secure login and user sessions using Passport.js and bcrypt.\n\nFrontend: Designed a responsive and modern UI with React.js for web version and React-native for mobile app version, including detailed rental views and filters.\n\nSecurity: Added input validation, malware scanning for uploaded images via API (OPWAST Cloud Defender), and RBAC for managing admin and user roles.\n\nKey Features: Rental post creation, detailed property views, shopping cart for short-term bookings, and filtering options.",
+        "images": [
+            "/Rental Listing/Rental Listing.png"
+
+        ],
+        "tags": [
+            "Node.js",
+            "React.js",
+            "React-native",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MongoDB"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    },
+    {
+        "id": 6,
+        "title": "E-commerce Full Stack Website",
+        "description": "Designed and developed a comprehensive e-commerce platform with the following features:\n\nBackend: Integrated MySQL for managing products, orders, users, and sessions.\n\nAuthentication: Implemented secure user authentication with hashed passwords and session management.\n\nFrontend: Built a responsive UI using HTML, CSS, and JavaScript. Added AJAX for dynamic and seamless data rendering.\n\nAPI Integration: Utilized dummyJSON API for populating the platform with fake product data.\n\nKey Features: Product search and filtering, shopping cart functionality (adjust quantities, remove items), user profile management, order history, and secure checkout processes.",
+        "images": [
+            "/Ecommerce/Ecommerce.png"
+
+        ],
+        "tags": [
+            "CodeIgniter",
+            "PHP",
+            "MySQL"
+        ],
+        "githubUrl": "https://github.com/example/social"
+    },
+    {
+        "id": 7,
+        "title": "Store Management System",
+        "description": "Developed a robust store management system for handling inventory, employees, and clients:\n\nDatabase Integration: Connected to a MySQL database for managing sold/bought items and user roles.\n\nRole-Based Interface: Designed a user-friendly JavaFX interface catering to different roles (admins, employees).\n\nAuthentication: Secured access using database authentication and role-based access control (RBAC).\n\nKey Features: Employees can add, update and delete customers and process their orders and generate receipts, while admins have additional privileges such as editing store details and managing inventory.",
+        "images": [
+            "/Store Management System/Store Management System.png"
+
+        ],
+        "tags": [
+            "JavaFX",
+            "MySQL"
         ],
         "githubUrl": "https://github.com/example/social"
     }
